@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.box {
+    width: 385px;
+    height: 510px;
+    margin-top: 142px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    border: 2px dashed rgba(255, 212, 58, 1);
+    background-color:  rgba(65, 65, 65, 1);
+}
+
+#password {
+    width: 100%;
+    height: 45px;
+    border: 1px solid rgba(255, 0, 0, 1);
+    background-color: rgba(169, 169, 169, 1);
+    border-radius: 4px;
+    padding-left: 5px;
+}
+#password::placeholder {
+    color: rgba(255, 0, 0, 1);
+}
+.paroli {
+    margin-top: 20px;
+    
+}
+
+table {
+    width: 90%;
+    margin-left: 20px;
+}
+#name {
+    width: 100%;
+    height: 47px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    background-color: rgba(169, 169, 169, 1);
+    border-radius: 4px;
+    padding-left: 5px;
+}
+
+.saxeli {
+    color: rgba(222, 222, 222, 1);
+    
+}
+div{
+    padding-top: 33px;
+}
+.mobil {
+    color: rgba(222, 222, 222, 1);
+}
+.paroli {
+    color: rgba(222, 222, 222, 1);
+}
+.biog {
+    color: rgba(222, 222, 222, 1);
+}
+#name::placeholder {
+    color: rgba(255, 212, 58, 1);
+}
+
+#number {
+    width: 100%;
+    height: 47px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    background-color: rgba(169, 169, 169, 1);
+    border-radius: 4px;
+    padding-left: 5px;
+}
+#number::placeholder {
+    color: rgba(255, 212, 58, 1);
+}
+#text {
+    width: 100%;
+    height: 112px;
+    border-radius: 4px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    background-color: rgba(169, 169, 169, 1);
+    padding-left: 5px;
+}
+#text::placeholder {
+    color: rgba(255, 212, 58, 1);
+}
+
+#button {
+    width: 100%;
+    height: 47px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 212, 58, 1);
+    background-color: rgba(255, 212, 58, 1);
+    margin-top: 31px;
+    margin-bottom: 27px;
+    cursor: pointer;
+}
